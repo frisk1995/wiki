@@ -46,14 +46,14 @@
 ## 2回目以降のファイル更新時  
 1. 変更したファイルの追加
 ```
-$ git add ファイル名
+[push_test]$ git add ファイル名
 ```
 2. commit
 ```
-$ git commit -m '任意の文字列（コメント）'
+[push_test]$ git commit -m '任意の文字列（コメント）'
 ```
 3. push 
 ```
-$ git push -u origin master 
+[push_test]$ git push -u origin master 
 ```
 
