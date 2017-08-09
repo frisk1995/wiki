@@ -1,5 +1,5 @@
 
-# This is My WIKI 
+# This is My Wiki
 
 clone repository
 ```
