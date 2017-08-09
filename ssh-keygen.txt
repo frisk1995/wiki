@@ -30,3 +30,22 @@
 
 参考URL：
 	https://webkaru.net/linux/tera-term-ssh-login-public-key/
+
+[Command Line]
+1.鍵の作成
+  [host]$ cd~/.ssh/
+  [host]$ ssh-keygen -t rsa
+
+2.鍵の転送
+  [host]$ scp ~/.ssh/id_rsa.pub サーバのユーザ名@サーバのIP:~/
+
+3.鍵の登録
+  [gest]$ mkdir ~/.ssh
+  [gest]$ chmod 700 ~/.ssh/
+  [gest]$ mv ~/id_rsa ~/.ssh/authorized_keys
+  [gest]$ chmod 600 ~/.ssh/authorized_keys
+
+4.動作確認
+  [host]$ ssh サーバのIP -l ログインユーザ -i id_rsa
+  #認証なしでログインできればOK
+　#ログインユーザは公開鍵を持つユーザにすること
