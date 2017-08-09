@@ -1,9 +1,10 @@
 Gitチュートリアル
+
 [前提条件]
 ・gitアカウントの作成
 ・gitインストール
 
-[環境設定]
+[初回実行時]
 1.Pushするリポジトリ（ディレクトリ）の作成
   [~]$ mkdir push_test/
   [~]$ cd push_test/
@@ -23,7 +24,16 @@ Gitチュートリアル
   [push_test]$ git commit -m '任意の文字列（コメント）'
 
 6.githubにPush
-  [push_test]$ git remote add origin https://ユーザごとのURL.git
+  [push_test]$ git remote add origin https://リポジトリのURLi.git
   #上記コマンドは初回の一回だけ実行かも?
   [push_test]$ git push -u origin master
 
+[2回目以降のファイル更新時]
+1.変更したファイルの追加
+  $ git add ファイル名
+
+2.commit
+  $ git commit -m '任意の文字列（コメント）'
+
+3.push
+  $ git push -u origin master 
