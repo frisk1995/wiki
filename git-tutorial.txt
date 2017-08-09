@@ -1,6 +1,5 @@
 # Gitチュートリアル
-#hogehoge
-
+# sample
 [前提条件]
 ・gitアカウントの作成
 ・gitインストール
