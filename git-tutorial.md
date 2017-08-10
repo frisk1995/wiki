@@ -36,7 +36,7 @@
 
 6. githubにPush
 ```
-[push_test]$ git remote add origin https://リポジトリのURLi.git
+[push_test]$ git remote add origin https://リポジトリのURL.git
 ```
 >上記コマンドは初回の一回だけ実行
 ```  
