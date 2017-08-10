@@ -4,28 +4,28 @@
 
 1.2. インストールウィザードが開かれるので【次へ】を選択
 
-1.3. [Choose A Download Source]
+1.3. [Choose A Download Source]  
 「Install from Internet」を確認して【次へ】
 
-1.4. [Select Root Install Directory]
+1.4. [Select Root Install Directory]  
 「Just Me」を選択して【次へ】  
 
-1.5. [Select Local Package Directory]
+1.5. [Select Local Package Directory]  
 「Local Package Directory」の場所は任意で【次へ】  
 ※特に理由がなければそのまま  
 
-1.6. [Select Your Internet Connection]
+1.6. [Select Your Internet Connection]  
 Proxyを設定している場合は、IEにProxyの設定を行って、  
 「Use System Proxy Setting」を選択して【次へ】  
 
-1.7. [Choose A Download Site]
+1.7. [Choose A Download Site]  
 「～.jp」を選択して【次へ】  
 ※特に理由がなければ「f ftp://ftp.jaist.ac.jp 」を選択  
 
 1.8. Installするパッケージの選択  
 以下の項目をインストールする  
-※[Skip]の部分をクリックしてバージョン表記に変わることを確認  
-※その他はDefaultのまま  
+※[Skip]の部分をクリックしてバージョン表記に変わることを確認   
+※その他はDefaultのまま   
 
 	[Category名]	Package名
 	------------------------------------------------------------------
@@ -43,14 +43,14 @@ Proxyを設定している場合は、IEにProxyの設定を行って、
 	[Editors]	gvim:GUI for the Vim text editor
 	------------------------------------------------------------------
 
-1.10. Cygwin再起動
+1.10. Cygwin再起動  
 
-1.11. pipのインストール
-以下のコマンドでpipをインストールする
+1.11. pipのインストール  
+以下のコマンドでpipをインストールする  
 ```
 $ python /usr/lib/python2.7/site-packages/easy_install.py pip
 ```
-2.1. ansibleインストール
+2.1. ansibleインストール  
 pipを用いてansibleをインストールする
 ```
 $pip install ansible
@@ -72,15 +72,15 @@ $vi hosts
 <仮想マシンのIPアドレス>  
 ```
 
-2.4. Ansibleのローカルでの動作確認
+2.4. Ansibleのローカルでの動作確認  
 以下のコマンドでローカルホストでの動作確認をする。
 ```
 $ ansible localhost -m ping
 ```
 	
-2.5. [SUCCESS]の表示を確認
+2.5. [SUCCESS]の表示を確認  
 	
-3.1. 仮想環境の構築
+3.1. 仮想環境の構築  
 vmwareにOSをインストールしておく
 
 3.2. 仮想マシンのIPアドレスを取得する
