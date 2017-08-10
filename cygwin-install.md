@@ -58,13 +58,13 @@ $pip install ansible
 	
 2.2. :ansible用ディレクトリの作成
 ```
-$mkdir /etc/ansible
-$cd /etc/ansible
+$ mkdir /etc/ansible
+$ cd /etc/ansible
 ```
 	
 2-3:インベントリファイルの作成
 ```
-$vi hosts
+$ vi hosts
 ```
 >以下を追記  
 ```
@@ -85,7 +85,7 @@ vmwareにOSをインストールしておく
 
 3.2. 仮想マシンのIPアドレスを取得する
 ```
-$ip a
+$ ip a
 ```
 
 3.3. Selinuxは無効にしておく
@@ -107,7 +107,7 @@ retry_files_enabled = False
 
 4.2. ansibleからのアクセス確認
 ```
-$ansible all -i hosts -m ping -u root  
+$ ansible all -i hosts -m ping -u root  
 SSH password:<ROOTのパスワード>  
 SUDO password[defaults to SSH password]:<SSH接続ユーザのSUDO用パスワード>  
 ```
