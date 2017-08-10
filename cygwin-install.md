@@ -20,7 +20,7 @@ Proxyを設定している場合は、IEにProxyの設定を行って、
 
 1.7. [Choose A Download Site]  
 「～.jp」を選択して【次へ】  
-※特に理由がなければ「f ftp://ftp.jaist.ac.jp 」を選択  
+※特に理由がなければ「 ftp://ftp.jaist.ac.jp 」を選択  
 
 1.8. Installするパッケージの選択  
 以下の項目をインストールする  
