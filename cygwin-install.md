@@ -1,6 +1,6 @@
 # Cygwin Setup
 
-1.1. http://cygwin.com/よりsetpu.exeをダウンロードして起動
+1.1. http://cygwin.com/ よりsetpu.exeをダウンロードして起動
 
 1.2. インストールウィザードが開かれるので【次へ】を選択
 
@@ -20,7 +20,7 @@ Proxyを設定している場合は、IEにProxyの設定を行って、
 
 1.7. [Choose A Download Site]
 「～.jp」を選択して【次へ】  
-※特に理由がなければ「ftp://ftp.jaist.ac.jp」を選択  
+※特に理由がなければ「f ftp://ftp.jaist.ac.jp 」を選択  
 
 1.8. Installするパッケージの選択  
 以下の項目をインストールする  
@@ -67,8 +67,10 @@ $cd /etc/ansible
 $vi hosts
 ```
 >以下を追記  
->>[server]  
->><仮想マシンのIPアドレス>  
+```
+[server]  
+<仮想マシンのIPアドレス>  
+```
 
 2.4. Ansibleのローカルでの動作確認
 以下のコマンドでローカルホストでの動作確認をする。
@@ -93,13 +95,15 @@ $ip a
 $ vi ansible.cfg
 ```
 >以下を追記  
->>[defaults]  
->>hostfile = ./hosts  
->>ask_pass = True  
->>ask_sudo_pass = True  
->>transport = paramiko  
->>host_key_checking = False  
->>retry_files_enabled = False  
+```
+[defaults]  
+hostfile = ./hosts  
+ask_pass = True  
+ask_sudo_pass = True  
+transport = paramiko  
+host_key_checking = False  
+retry_files_enabled = False  
+```
 
 4.2. ansibleからのアクセス確認
 ```
