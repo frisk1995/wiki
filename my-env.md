@@ -1,7 +1,7 @@
 # 自分の環境構築用
 ## Cygwin
 インストール項目
-- https://github.com/frisk1995/wiki.git をみてCygwinをインストール
+- https://github.com/frisk1995/wiki/blob/master/cygwin-install.md をみてCygwinをインストール
 - tmux
 - pip
 - ansible
