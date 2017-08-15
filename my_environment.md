@@ -23,6 +23,12 @@ $ cd nkf-*
 $ make  
 $ make install
 ```
+* ipconfigが文字化けした場合
+```
+$ vi ~/.bashrc  
+#最終行に追記  
+alias ipconfig="ipconfig | nkf -w"
+```
 ### pip
 
 ### tmux
