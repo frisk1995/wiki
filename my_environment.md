@@ -14,7 +14,7 @@ $ mv apt-cyg /usr/local/bin/
 nkf
 > 日本語の文字化け対策
 
-* nkfのソースコードをSourceForgeから取得
+* nkfのソースコードをSourceForgeから取得  
 http://sourceforge.jp/projects/nkf/
 ```
 $ tar xvfz nkf-*.tar.gz  
