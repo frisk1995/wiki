@@ -38,6 +38,7 @@ disabled-ipv6.yaml
 files/disabled_ipv6.conf
 ```
 * ipv6を無効化する
+
 ## ブートローダの設定
 **操作ファイル名**
 ```
@@ -46,8 +47,11 @@ set-mbr.yaml
 * ブートローダのインストール先 -> MBR
 
 ## grubの設定
-	[set-grub.yaml]
-	
+**操作ファイル名**
+```
+set-grub.yaml
+files/grub.conf
+```	
 ローカルのfilesからgrub.confを取得し、コピーする
 
 ## カーネルダンプの設定
@@ -76,39 +80,56 @@ install-package.yaml
 set-yum.yaml
 ```
 * カーネルのアップデートはしない設定
-	
 
 ## サービスの起動・停止
-	[set-service.yaml]
-
+**操作ファイル**
+```	
+set-service.yaml
+```
 
 ## カーネルパラメータの設定
-	[set-ketnel.yaml]
-	
+**操作ファイル**
+```
+set-ketnel.yaml
+```
 
 ## 名前解決方式
-	[set-switch.yaml]
-	
+**操作ファイル**
+```
+set-switch.yaml
+```	
 
 ## DNSクライアント設定
-	[set-resolv.yaml]
-	
+**操作ファイル**
+```
+set-resolv.yaml
+```	
 
 ## 時刻同期設定
-	[set-net.yaml]
-
+**操作ファイル**
+```
+set-net.yaml
+```
 ## ファイアウォール設定
-	[set-firewall.yaml]
-	
+**操作ファイル**
+```
+set-firewall.yaml
+```
 
 ## Selinux設定
-	[set-selinux.yaml]
-	
+**操作ファイル**
+```
+set-selinux.yaml
+```	
 
 ## oracleルール設定
-	[set-oracle.yaml]
-	
+**操作ファイル**
+```
+set-oracle.yaml
+```	
 
 ## sshd設定
-	[set-sshd.yaml]
-
+**操作ファイル**
+```
+set-sshd.yaml
+```
