@@ -2,6 +2,7 @@
 ## Cygwin
 
 ### https://github.com/frisk1995/wiki/blob/master/cygwin-install.md をみてCygwinをインストール
+
 ### apt-cyg インストール
 apt-cyg
 > パッケージマネージャ
@@ -22,22 +23,46 @@ $ cd nkf-*
 $ make  
 $ make install
 ```
-### tmux
 ### pip
-### ansible
-### vimrcの設定
-### bash_profileの設定
-### zsh
-### tree
-### apt-cyg
 
-
-## Linux
 ### tmux
-### git
-### tree
+```
+$ pip install tmux
+```
 ### ansible
+```
+$ pip install ansible
+```
+### git
+```
+$ 
+```
 ### vimrcの設定
 ### bash_profileの設定
 ### zsh
+### tree
+```
+$ pip install tree
+```
 
+## Linux(rhel系統)
+### tmux
+```
+# yum install tmux
+```
+### git
+```
+# yum install git
+```
+### tree
+```
+# yum install tree
+```
+### ansible
+```
+# yum install epel-release
+# yum install enablerepo=epel ansible
+```
+### vimrcの設定
+### bash_profileの設定
+### zsh
