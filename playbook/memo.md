@@ -114,18 +114,19 @@ set-resolv.yaml
 ```
 set-net.yaml
 ```
+* 省略
 ## ファイアウォール設定
 **操作ファイル**
 ```
 set-firewall.yaml
 ```
-
+* shellモジュールで対応
 ## Selinux設定
 **操作ファイル**
 ```
 set-selinux.yaml
 ```	
-
+* selinuxモジュールで対応
 ## oracleルール設定
 **操作ファイル**
 ```
