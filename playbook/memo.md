@@ -86,24 +86,28 @@ set-yum.yaml
 ```	
 set-service.yaml
 ```
+* 省略
 
 ## カーネルパラメータの設定
 **操作ファイル**
 ```
 set-ketnel.yaml
 ```
+* sysctlモジュールで対応
 
 ## 名前解決方式
 **操作ファイル**
 ```
 set-switch.yaml
 ```	
+* lineinfileモジュールで対応
 
 ## DNSクライアント設定
 **操作ファイル**
 ```
 set-resolv.yaml
 ```	
+* 省略
 
 ## 時刻同期設定
 **操作ファイル**
