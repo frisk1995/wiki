@@ -26,3 +26,6 @@ ubuntuで詰まった点、rhel系統と違い調べた点
 
 ## main.sh
 terminal側で2回目以降、リポジトリをpushするまでのシェルスクリプト
+
+## how-to-mount.md
+linuxOSにおけるHDD追加時のフォーマットおよびマウントについて
