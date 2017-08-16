@@ -8,7 +8,7 @@
 # fdisk -l
 ```
 特定したらそのデバイスをフォーマットする。  
-（例として、`/dev/sdb`を追加したとする）
+＊例として、`/dev/sdb`を追加したとする
 ```
 # fdisk /dev/sdb
 ```
@@ -52,14 +52,14 @@ ioctl() を呼び出してパーティションテーブルを再読込みしま
 ディスクを同期しています。  
 ```
 フォーマットする。
-（＊フォーマット形式はext4を指定）
+＊フォーマット形式はext4を指定
 ```
 # mkfs -t ext4 /dev/sdb1
 ```
 
 ### フォーマットしたHDDをマウントする
 マウントするディレクトリを作成する。  
-（例として、`/mnt/hdd`にマウントする）
+＊例として、`/mnt/hdd`にマウントする
 ```
 # mkdir /mnt/hdd  
 # mount /dev/sdb1 /mnt/hdd
@@ -74,11 +74,11 @@ dev/sdb1		/mnt/hdd	ext4
 ```
 <マウントするデバイス>	<マウント先> <フォーマット形式>  
 再起動し、以下のコマンドで確認する。
-
+＊以下、省略しています
 ```
 # df -h  
 Filesystem Size Used Avail Use% Mounted on  
-/dev/sda1 16G 679M 16G 5% /  
+
 /dev/sda1 477 28M 425M 7% /boot  
 /dev/sdb1 4.8G 10M 4.6G 1% /mnt/hdd （sdb1が/mnt/hddに自動マウントされている）
 ```
