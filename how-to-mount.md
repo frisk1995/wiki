@@ -72,6 +72,13 @@ ioctl() を呼び出してパーティションテーブルを再読込みしま
 ```
 dev/sdb1		/mnt/hdd	ext4
 ```
-<マウントするデバイス>	<マウント先> <フォーマット形式>
+<マウントするデバイス>	<マウント先> <フォーマット形式>  
+再起動し、以下のコマンドで確認する。
 
-
+```
+# df -h  
+Filesystem Size Used Avail Use% Mounted on  
+/dev/sda1 16G 679M 16G 5% /  
+/dev/sda1 477 28M 425M 7% /boot  
+/dev/sdb1 4.8G 10M 4.6G 1% /mnt/hdd （sdb1が/mnt/hddに自動マウントされている）
+```
