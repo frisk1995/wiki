@@ -50,5 +50,14 @@ Partition 1 of type Linux and of size 1.8 TiB is set
 ioctl() を呼び出してパーティションテーブルを再読込みします。  
 ディスクを同期しています。  
 ```
+ファイルシステムを作成する。
+```
+# mkfs -t ext4 /dev/sdb1
+```
+
 ### フォーマットしたHDDをマウントする
- 
+
+
+
+
+
