@@ -30,6 +30,10 @@ $ vi ~/.bashrc
 alias ipconfig="ipconfig | nkf -w"
 ```
 ### pip
+pythonベースのパッケージマネージャ
+```
+$ python /usr/lib/python2.7/site-packages/easy_install.py pip
+```
 
 ### tmux
 ```
