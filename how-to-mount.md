@@ -8,7 +8,7 @@
 # fdisk -l
 ```
 特定したらそのデバイスをフォーマットする。  
-（例として、/dev/sdbを追加したとする）
+（例として、`/dev/sdb`を追加したとする）
 ```
 # fdisk /dev/sdb
 ```
@@ -50,13 +50,18 @@ Partition 1 of type Linux and of size 1.8 TiB is set
 ioctl() を呼び出してパーティションテーブルを再読込みします。  
 ディスクを同期しています。  
 ```
-ファイルシステムを作成する。
+フォーマットする。
 ```
 # mkfs -t ext4 /dev/sdb1
 ```
 
 ### フォーマットしたHDDをマウントする
-
+マウントするディレクトリを作成する。  
+（例として、`/mnt/hdd`にマウントする）
+```
+# mkdir /mnt/hdd  
+# mount /dev/sdb1 /mnt/hdd
+```
 
 
 
