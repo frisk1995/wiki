@@ -33,4 +33,5 @@ linuxOSにおけるHDD追加時のフォーマットおよびマウントにつ�
 ## nfs-server.md
 NFSサーバの構築について
 
-
+## samba-server.md
+Windowsとのファイル共有サービスSambaサーバの構築について
