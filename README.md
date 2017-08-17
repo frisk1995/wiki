@@ -29,3 +29,8 @@ terminal側で2回目以降、リポジトリをpushするまでのシェルス�
 
 ## how-to-mount.md
 linuxOSにおけるHDD追加時のフォーマットおよびマウントについて
+
+## nfs-server.md
+NFSサーバの構築について
+
+
