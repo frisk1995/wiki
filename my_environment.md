@@ -1,5 +1,9 @@
 # 自分の環境構築用
 ## Cygwin
+### openコマンドでエクスプローラを開く
+```
+$ echo "alias open=cygstart"  >> ~/.bashrc
+```
 
 ### https://github.com/frisk1995/wiki/blob/master/cygwin-install.md をみてCygwinをインストール
 
