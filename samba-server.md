@@ -24,7 +24,7 @@ unix charset = UTF-8
 workgroup = WORKGROUP  
 
 # 93行目：コメント解除してアクセスを許可するIPアドレスを指定  
-hosts allow = 127. 10.0.0.  
+hosts allow = 127. 10.0.0.  192.168.1.
 
 # 120行目：追記 ( 認証なし設定 )  
 security = user  
@@ -53,3 +53,8 @@ iptablesは設定をしておく。
 ```
 
 ## Windowsでの操作
+ネットワークドライブを追加する
+Pathは以下のものを使用
+```
+\\192.168.1.1\Share
+```
