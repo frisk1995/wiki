@@ -49,14 +49,14 @@ $ pip install ansible
 ```
 ### git
 ```
-$ 
+$ apt-cyg install git
 ```
 ### vimrcの設定
 ### bash_profileの設定
 ### zsh
 ### tree
 ```
-$ pip install tree
+$ apt-cyg install tree
 ```
 
 ## Linux(rhel系統)
