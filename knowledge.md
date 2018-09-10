@@ -9,7 +9,16 @@ shutdown -h now
 ```
 fdisk -l
 ```
-
 ```
 df -h
+```
+
+### 定期実行ジョブ確認
+```
+crontab -l
+```
+
+### 共有ディレクトリの権限変更
+```
+chmod 777 -R /home/share
 ```
