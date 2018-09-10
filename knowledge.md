@@ -43,5 +43,9 @@ crontab -e
 59 23 * * * root sh /usr/bin/shutdown.sh
 ---------------------------
 crontab -l
-
+```
+```
+systemctl restart crond
+systemctl status crond
+systemctl enable crond
 ```
