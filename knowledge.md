@@ -26,3 +26,12 @@ crontab -l
 ```
 chmod 777 -R /home/share
 ```
+
+### 定期実行ジョブ作成
+```
+vi /usr/bin/shutdown.sh
+---------------------------
+#!/bin/sh
+shutdown -r now
+---------------------------
+```
