@@ -36,8 +36,12 @@ shutdown -r now
 ---------------------------
 cat /usr/bin/shutdown.sh
 chmod 755 /usr/bin/shutdown.sh
+```
+```
 crontab -e
 ---------------------------
 59 23 * * * root sh /usr/bin/shutdown.sh
 ---------------------------
+crontab -l
+
 ```
