@@ -49,3 +49,5 @@ systemctl restart crond
 systemctl status crond
 systemctl enable crond
 ```
+
+### 時刻同期
