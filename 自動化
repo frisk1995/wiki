@@ -1,0 +1,19 @@
+https://pc-automation.tech/wp/auto-click-specific-image/
+
+//画像を監視中であることを表示
+FUKIDASI("画像を監視中…", 20, 10, 0, 10)
+ 
+WHILE TRUE
+ 
+  //クリック対象マークの画像ファイルを指定
+  IFB CHKIMG("クリック対象マーク.bmp")
+    //クリック対象の画像が見つかった場合、その画像をクリック
+    BTN(LEFT, CLICK, G_IMG_X+10, G_IMG_Y+10, 500)
+    //クリック後はプログラムを終了する
+    EXIT
+  ENDIF
+ 
+  //監視時間間隔[s]
+  SLEEP(1)
+ 
+WEND
