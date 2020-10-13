@@ -1,16 +1,4 @@
-# AWSのログ監視について
-## 概要
-AWSログ監視の効率化について整理を行う。
-
-## 目的
-AWSログ監視の効率化を行う。
-
-- 現状
-  - 分間`350件`
-
-## 検証
-### 方法
-AWSのサーバレスサービスをローカルで検証できる環境を構築する。
+# AWSのサーバレスサービスをローカルで検証できる環境を構築する。
 - https://qiita.com/kojiisd/items/8d7b98fb7f3c8f871f96
 - https://dev.classmethod.jp/cloud/aws/localstack-lambda/
 - localstackを利用する
