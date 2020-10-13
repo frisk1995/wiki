@@ -1,4 +1,4 @@
-# OracleLinux(オフライン)端末におけるansibleとserverspec環境の構築手順
+# ansibleとserverspec環境の構築手順
 ## **virtualenv/ansible**
 
 ### **前提パッケージのオフラインインストール**
